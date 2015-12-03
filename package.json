@@ -1,0 +1,57 @@
+{
+  "name": "@locomotivemtl/grunt-charcoal-frontend",
+  "description": "Grunt tasks for developing Charcoal's frontend.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/locomotivemtl/grunt-charcoal-frontend",
+  "keywords": [
+    "charcoal"
+  ],
+  "author": {
+    "name": "Locomotive",
+    "url": "https://locomotive.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hgit://github.com/locomotivemtl/grunt-charcoal-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/locomotivemtl/grunt-charcoal-frontend/issues"
+  },
+  "licenses": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.1",
+    "glob": "^6.0.4",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-qunit": "^0.7.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-githooks": "^0.5.0",
+    "grunt-jscs": "^2.6.0",
+    "grunt-jsonlint": "^1.0.7",
+    "grunt-notify": "^0.4.3",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "grunt-svgmin": "^3.1.2",
+    "grunt-svgstore": "^0.5.0",
+    "load-grunt-tasks": "^3.4.0",
+    "time-grunt": "~1.3.0"
+  }
+}
